@@ -1,4 +1,5 @@
 # Summer 2017 openID Connect with OAuth2
+This is an openID Connect javascript/Node.js implementation with OAuth2 library
 
 ## Required Installation
 
@@ -7,19 +8,19 @@
 
 ## Steps
 ### 1. generate package.json by initializing npm 
-'''
+```
 npm init
-'''
+```
 
 ### 2. modify package.json 
 (The package.json is only an example)
   * add 'webpack index.js aaron-bundle.js' after "test: "
   * add the following after "license": "ISC"
-'''
+```
 "dependencies": {
     "@zalando/oauth2-client-js": "0.0.18"
   }
-''' 
+```
 
 ### 3. modify index.js
   *only import js files that will be bundled
@@ -29,8 +30,8 @@ npm init
 
 ### 5. create bundle
   *(The bundle.js is just an example.)
-'''
+```
 npm run test
-'''
+```
 
 
