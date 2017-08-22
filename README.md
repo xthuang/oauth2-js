@@ -12,8 +12,7 @@ This is an openID Connect javascript/Node.js implementation with OAuth2 library
 npm init
 ```
 
-### 2. modify package.json 
-(The package.json is only an example)
+### 2. modify package.json (The package.json included within this github is only an example)
   * add 'webpack index.js aaron-bundle.js' after "test: "
   * add the following after "license": "ISC"
 ```
@@ -28,8 +27,7 @@ npm init
 ### 4. modify auth_js.js
   *input id, authorization uri, client id, redirect uri
 
-### 5. create bundle
-  *(The bundle.js is just an example.)
+### 5. create bundle (The bundle.js included within this github is only an example.)
 ```
 npm run test
 ```
