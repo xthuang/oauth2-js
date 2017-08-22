@@ -1,13 +1,31 @@
 # oauth2-js
 
-Summer 2017 openID Connect with OAuth2
+# Summer 2017 openID Connect with OAuth2
 
-To use webpack, call the function "npm run test"
+## Required Installation
 
-If the initialization file did not exist run command "npm init"
+1. npm
+2. webpack
 
-For index.js only import the js files that will be bundled
+## Steps
+1. generate package.json by initializing npm 
+'npm init'
 
-The bundle.js is just an example.
+2. modify package.json 
+(The package.json is only an example)
+add 'webpack index.js aaron-bundle.js' after "test: "
+add '''"dependencies": {
+    "@zalando/oauth2-client-js": "0.0.18"
+  }''' after "license": "ISC"
+
+3. modify index.js
+only import js files that will be bundled
+
+4. modify auth_js.js
+input id, authorization uri, client id, redirect uri
+
+5. create bundle
+(The bundle.js is just an example.)
+'npm run test'
 
 For authentication only include the auth_js.js and oauth.js 
