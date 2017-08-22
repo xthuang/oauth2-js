@@ -1,5 +1,3 @@
-# oauth2-js
-
 # Summer 2017 openID Connect with OAuth2
 
 ## Required Installation
@@ -13,8 +11,8 @@
 
 2. modify package.json 
 (The package.json is only an example)
-add 'webpack index.js aaron-bundle.js' after "test: "
-add '''"dependencies": {
+* add 'webpack index.js aaron-bundle.js' after "test: "
+* add '''"dependencies": {
     "@zalando/oauth2-client-js": "0.0.18"
   }''' after "license": "ISC"
 
